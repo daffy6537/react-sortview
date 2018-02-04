@@ -36,7 +36,7 @@ export default class Demo extends Component {
                 onChange={(val) => {
                     console.log(val);
                 }}
-                renderItem={(item, index) => {
+                renderItem={(item, index, array) => {
                     return (
                         <div>
                             <span>{item}</span>

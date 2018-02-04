@@ -177,7 +177,7 @@ class Sortable extends Component {
     
     render() {
         const {renderItem, value, key} = this.props;
-        return value.map((item, index) => {
+        return value.map((item, index, array) => {
             if (!item) {
                 return null;
             }
@@ -195,7 +195,7 @@ class Sortable extends Component {
                         this.handleMouseDown(e, index);
                     }}
                 >
-                    {renderItem(item, index)}
+                    {renderItem(item, index, array)}
                 </div>
             );
         });
