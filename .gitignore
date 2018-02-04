@@ -62,8 +62,4 @@ typings/
 # gitignore
 .idea
 
-build/
-output/
-fe-react/
 .DS_Store
-.tern-port
