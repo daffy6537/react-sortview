@@ -1,6 +1,6 @@
 # react-sortview
 
-### A sort container that supports the specific drag button
+### A react sortable list container support unique drag button when you want.
 ### 支持特定拖拽按钮的排序容器
 
 | params | type | default | description |
@@ -12,7 +12,10 @@
 | onChange | function | - | 排序后的回调 |
 | renderItem | function | - | 渲染函数 |
 
++ DEMO
 
+    [Demo on Jsfiddle](http://jsfiddle.net/daffy6537/69z2wepo/100550/)
+ 
 + INSTALL
 
 ```
