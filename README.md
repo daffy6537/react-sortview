@@ -6,6 +6,7 @@
 | value | array | - | 待排序的数组 |
 | key | string | - | renderItem的key字段 |
 | dragbtn | string | - | 拖拽按钮的className |
+| placeholderColor | string | '#e7f1ff' | 占位空间的背景色 |
 | onChange | function | - | 排序后的回调 |
 | renderItem | function | - | 渲染函数 |
 
