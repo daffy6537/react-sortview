@@ -1,13 +1,10 @@
 {
   "name": "react-sortview",
   "version": "1.0.0",
-  "description": "a react sortable list container view support unique drag button",
+  "description": "a react sortable list container support unique drag button",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start"
   },
   "repository": {
     "type": "git",
@@ -27,12 +24,8 @@
   },
   "homepage": "https://github.com/daffy6537/react-sortview#readme",
   "dependencies": {
-    "create-react-app": "^1.4.3",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "react-dom": "^16.2.0"
   }
 }
