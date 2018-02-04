@@ -1,6 +1,6 @@
 {
   "name": "react-sortview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a react sortable list container support unique drag button",
   "main": "index.js",
   "files": [
