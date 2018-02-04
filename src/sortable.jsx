@@ -2,29 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 
-<<<<<<< HEAD:src/sortable.js
-export default class Sortable extends Component {
-    static propTypes = {
-        placeholderColor: PropTypes.string,
-        key: PropTypes.string, // key of list item 渲染的key字段
-        value: PropTypes.array, // array 数组
-        dragbtn: PropTypes.string, // the dragable button className if needed. 拖拽按钮，不设置的话任何元素都可以拖拽
-        onChange: PropTypes.func, // callback after dragged 拖拽完成的回调
-        renderItem: PropTypes.func // render function of list item 渲染函数
-    }
-    
-    static defaultProps = {
-        placeholderColor: '#e7f1ff',
-        key: '',
-        value: [],
-        dragbtn: '',
-        onChange: () => {},
-        renderItem: () => null
-    }
-    
-=======
 class Sortable extends Component {
->>>>>>> npm:src/sortable.jsx
     constructor(props) {
         super(props);
         this.listData = props.value;
