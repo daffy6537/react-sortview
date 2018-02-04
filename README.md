@@ -15,6 +15,8 @@
 + DEMO
 
     [Demo on Jsfiddle](http://jsfiddle.net/daffy6537/69z2wepo/100550/)
+    
+    ![Alt text](/static/img/demo.png "Optional Title")
  
 + INSTALL
 
