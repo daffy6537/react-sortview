@@ -14,9 +14,9 @@
 
 + DEMO
 
-    [Click to open the demo on jsfiddle.com](http://jsfiddle.net/daffy6537/69z2wepo/100550/ target="_blank")
+    [Click to open the demo on jsfiddle.com](http://jsfiddle.net/daffy6537/69z2wepo/100550/)
     
-    [![Demo shortcut](/static/img/demo.png "Demo shortcut")](http://jsfiddle.net/daffy6537/69z2wepo/100550/ target="_blank")
+    [![Demo shortcut](/static/img/demo.png "Demo shortcut")](http://jsfiddle.net/daffy6537/69z2wepo/100550/)
  
 + INSTALL
 
