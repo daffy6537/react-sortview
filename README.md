@@ -1,6 +1,8 @@
 # react-sortview
 
+### A sort container that supports a specific drag button
 ### 支持特定拖拽按钮的排序容器
+
 | 参数 | 数据类型 | 默认值 | 说明 |
 | -- | -- | -- | -- |
 | value | array | - | 待排序的数组 |
