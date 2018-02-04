@@ -1,35 +1,49 @@
 # react-sortview
 
-
-### Sortable 排序容器
+### 支持特定拖拽按钮的排序容器
 | 参数 | 数据类型 | 默认值 | 说明 |
 | -- | -- | -- | -- |
 | value | array | - | 待排序的数组 |
-| attrKey | string | 'key' | 渲染的value.item中选择作为key的字段 |
-| dragBtn | string | - | 拖拽按钮的className |
+| key | string | - | renderItem的key字段 |
+| dragbtn | string | - | 拖拽按钮的className |
 | onChange | function | - | 排序后的回调 |
 | renderItem | function | - | 渲染函数 |
-+ Demo
+
+
++ INSTALL
 
 ```
+npm install react-sortview
+```
++ USE
+```
+import react, {Component} from 'react';
 import SortView from 'react-sortview';
 
-<SortView
-    dragbtn="drag-btn"
-    value={[1,2,3]}
-    onChange={(val) => {
-        console.log(val);
-    }}
-    renderItem={(item, index) => {
+export default class Demo extends Component {
+    contructor(props){
+        super(props);
+    }
+    
+    render() {
         return (
-            <div>
-                <span>{item}</span>
-                <button className="drag-btn">drag here</button>
-            </div>
+            <SortView
+                dragbtn="drag-btn"
+                value={[1,2,3]}
+                onChange={(val) => {
+                    console.log(val);
+                }}
+                renderItem={(item, index) => {
+                    return (
+                        <div>
+                            <span>{item}</span>
+                            <button className="drag-btn">drag here</button>
+                        </div>
+                    );
+                }}
+            />
         );
-    }}
-/>
+    }
+};
 ```
-
-
 

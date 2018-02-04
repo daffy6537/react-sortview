@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 export default class Sortable extends Component {
     static propTypes = {
         placeholderColor: PropTypes.string,
-        attrKey: PropTypes.string, // key of list item 渲染的key字段
+        key: PropTypes.string, // key of list item 渲染的key字段
         value: PropTypes.array, // array 数组
         dragbtn: PropTypes.string, // the dragable button className if needed. 拖拽按钮，不设置的话任何元素都可以拖拽
         onChange: PropTypes.func, // callback after dragged 拖拽完成的回调
@@ -14,7 +14,7 @@ export default class Sortable extends Component {
     
     static defaultProps = {
         placeholderColor: '#e7f1ff',
-        attrKey: '',
+        key: '',
         value: [],
         dragbtn: '',
         onChange: () => {},
@@ -194,12 +194,12 @@ export default class Sortable extends Component {
     }
     
     render() {
-        const {renderItem, value, attrKey} = this.props;
+        const {renderItem, value, key} = this.props;
         return value.map((item, index) => {
             if (!item) {
                 return null;
             }
-            let itemKey = attrKey ? item[attrKey || 'key'] : item;
+            let itemKey = key ? item[key || 'key'] : item;
             if (!itemKey) {
                 throw new Error('you should set the key of each');
             }
